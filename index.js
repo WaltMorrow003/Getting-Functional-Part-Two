@@ -26,8 +26,14 @@ then?
 
 
 function oldestCustomer(array){
-
-
+var ageComp = 0
+var name;
+for(var i=0; i<=array.lenght -1; i++){
+  if(array[1].age >= ageComp){
+    ageComp = arra[1].age
+  }
+}
+return name
 };
 
 
@@ -50,6 +56,13 @@ then?
 */
 
 function youngestCustomer(array){
-
+var ageComp = 0
+var name;
+for(var i=0; i>=array.lenght -1; i++){
+  if(array[1].age >= ageComp){
+    ageComp = arra[1].age
+  }
+}
+return name
 };
 
